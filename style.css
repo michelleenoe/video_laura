@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url("https://use.typekit.net/jbr6mcz.css");
+
+body {
+    color:rgb(25, 0, 255);
+}
+img, 
+video {
+    max-width: 100%;
+    height:auto;
+    display:block;
+    padding:15px;
+}
+
+main, body {
+margin:70px;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    text-align:center;
+}
+h1 {
+    font-family: "bungee", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+}
+h2 {
+    font-family:'Source Code Pro', monospace;
+    font-size:35px;
+    text-align: center;
+}
+footer {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 12px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    color:black;
+}
+.credits {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    text-align: center;
+}
+h3 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 35px;
+    text-align: center;
+}
+a {
+    color:rgba(135, 139, 248, 0.995);
+    text-decoration:none;
+    font-family: bungee, sans-serif;
+              font-weight: 750;
+              font-size: 20px;
+}
+
+#sec3 a  {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    margin-left: 45%;
+    text-decoration: underline;
+    color:grey;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+.menu {
+    display:flex;
+    list-style-type: none;
+
+}
+
+
+header nav ul {
+    display: flex;
+  gap: 90px;
+  padding:0;
+  overflow-x: auto;
+  justify-content: center;
+  text-decoration-line:none;
+
+}
+
+@media (min-width: 800px) {
+    iframe {
+        width: 101%;
+    }
+}
